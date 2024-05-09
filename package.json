@@ -1,0 +1,16 @@
+{
+  "name": "taspen",
+  "version": "1.0.0",
+  "main": "word.js",
+  "scripts": {
+    "start": "node ./src/index",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
