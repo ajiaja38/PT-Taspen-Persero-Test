@@ -31,7 +31,7 @@ const groupAndSortLetters = (words) => {
   return result;
 };
 
-const words = ["Pendanaan", "Terproteksi", "Untuk", "Dampat", "Berarti"];
+const words = ["Pendanaan", "Terproteksi", "Untuk", "Dampak", "Berarti"];
 const sortedLetters = groupAndSortLetters(words);
 console.log(sortedLetters);
 

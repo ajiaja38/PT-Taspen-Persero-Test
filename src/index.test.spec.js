@@ -14,8 +14,8 @@ describe("groupAndSortLetters", () => {
   });
 
   it("should return sorted and grouped letters", () => {
-    const words = ["Pendanaan", "Terproteksi", "Untuk", "Dampat", "Berarti"];
-    const expectedOutput = "aenrtikpBDPTUdmosu";
+    const words = ["Pendanaan", "Terproteksi", "Untuk", "Dampak", "Berarti"];
+    const expectedOutput = "aenrktipBDPTUdmosu";
     expect(groupAndSortLetters(words)).toEqual(expectedOutput);
   });
 
